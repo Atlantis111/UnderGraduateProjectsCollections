@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/project_3/project_3.srcs/sim_1/new/project_1_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project_1_test
+ERROR: [VRFC 10-4982] syntax error near 'end' [E:/vivadoproject/project_3/project_3.srcs/sim_1/new/project_1_test.v:36]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword end used in incorrect context [E:/vivadoproject/project_3/project_3.srcs/sim_1/new/project_1_test.v:36]
+ERROR: [VRFC 10-2865] module 'project_1_test' ignored due to previous errors [E:/vivadoproject/project_3/project_3.srcs/sim_1/new/project_1_test.v:23]

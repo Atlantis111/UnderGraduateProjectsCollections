@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jun 17 23:13:07 2021
+# Process ID: 19892
+# Current directory: E:/vivadoproject/RISC_V_ZHZ.runs/My_ROM_synth_1
+# Command line: vivado.exe -log My_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source My_ROM.tcl
+# Log file: E:/vivadoproject/RISC_V_ZHZ.runs/My_ROM_synth_1/My_ROM.vds
+# Journal file: E:/vivadoproject/RISC_V_ZHZ.runs/My_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source My_ROM.tcl -notrace

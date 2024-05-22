@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 16 00:06:29 2021
+# Process ID: 10708
+# Current directory: E:/vivadoproject/RegisterHeap/RegisterHeap.runs/impl_1
+# Command line: vivado.exe -log ALU_main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ALU_main.tcl -notrace
+# Log file: E:/vivadoproject/RegisterHeap/RegisterHeap.runs/impl_1/ALU_main.vdi
+# Journal file: E:/vivadoproject/RegisterHeap/RegisterHeap.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ALU_main.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 13 22:41:42 2020
+# Process ID: 21552
+# Current directory: E:/vivadoproject/shifting_register/shifting_register.runs/impl_1
+# Command line: vivado.exe -log shifting_register.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source shifting_register.tcl -notrace
+# Log file: E:/vivadoproject/shifting_register/shifting_register.runs/impl_1/shifting_register.vdi
+# Journal file: E:/vivadoproject/shifting_register/shifting_register.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source shifting_register.tcl -notrace

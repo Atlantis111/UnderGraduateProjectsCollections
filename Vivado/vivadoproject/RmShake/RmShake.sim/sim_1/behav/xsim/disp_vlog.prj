@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RmShake.srcs/sources_1/new/DivFre.v" \
+"../../../../RmShake.srcs/sources_1/new/ditheliminater.v" \
+"../../../../RmShake.srcs/sources_1/new/disp.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

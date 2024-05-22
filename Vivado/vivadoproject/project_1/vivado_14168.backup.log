@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 16 17:36:53 2020
+# Process ID: 14168
+# Current directory: D:/vivadoprog/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14952 D:\vivadoprog\project_1\project_1.xpr
+# Log file: D:/vivadoprog/project_1/vivado.log
+# Journal file: D:/vivadoprog/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivadoprog/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 16 17:37:18 2020...

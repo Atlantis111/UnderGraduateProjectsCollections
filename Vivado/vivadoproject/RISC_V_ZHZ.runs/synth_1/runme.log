@@ -1,0 +1,375 @@
+
+*** Running vivado
+    with args -log CPU_main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU_main.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source CPU_main.tcl -notrace
+Command: synth_design -top CPU_main -part xc7a100tlcsg324-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100tl'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100tl'
+INFO: [Device 21-403] Loading part xc7a100tlcsg324-2L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9668
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:221]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU_main' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:545]
+INFO: [Synth 8-6157] synthesizing module 'ditheliminater' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:44]
+	Parameter S0 bound to: 3'b000 
+	Parameter S1 bound to: 3'b001 
+	Parameter S2 bound to: 3'b010 
+	Parameter S3 bound to: 3'b011 
+	Parameter S4 bound to: 3'b100 
+	Parameter S5 bound to: 3'b101 
+INFO: [Synth 8-6157] synthesizing module 'DivFre' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:23]
+	Parameter num bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DivFre' (1#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'ditheliminater' (2#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:44]
+INFO: [Synth 8-6157] synthesizing module 'DivFreq_Display' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:476]
+	Parameter num bound to: 10000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DivFreq_Display' (3#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:476]
+INFO: [Synth 8-6157] synthesizing module 'InstrFetch' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:135]
+INFO: [Synth 8-6157] synthesizing module 'PC' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:110]
+INFO: [Synth 8-6157] synthesizing module 'PC_add' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'PC_add' (4#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (5#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:110]
+INFO: [Synth 8-6157] synthesizing module 'My_ROM' [E:/vivadoproject/RISC_V_ZHZ.runs/synth_1/.Xil/Vivado-10108-DESKTOP-J89QRPS/realtime/My_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'My_ROM' (6#1) [E:/vivadoproject/RISC_V_ZHZ.runs/synth_1/.Xil/Vivado-10108-DESKTOP-J89QRPS/realtime/My_ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'IR' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'IR' (7#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'InstrFetch' (8#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:135]
+INFO: [Synth 8-6157] synthesizing module 'InstrDec' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:171]
+	Parameter R_code bound to: 7'b0110011 
+	Parameter I_code1 bound to: 7'b0010011 
+	Parameter I_code2 bound to: 7'b0000011 
+	Parameter S_code bound to: 7'b0100011 
+	Parameter B_code bound to: 7'b1100011 
+	Parameter U_code1 bound to: 7'b0110111 
+	Parameter U_code2 bound to: 7'b0010111 
+	Parameter J_code1 bound to: 7'b1101111 
+	Parameter J_code2 bound to: 7'b1100111 
+INFO: [Synth 8-6157] synthesizing module 'ImmU' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:149]
+	Parameter Rtype bound to: 6'b100000 
+	Parameter Itype bound to: 6'b010000 
+	Parameter Stype bound to: 6'b001000 
+	Parameter Btype bound to: 6'b000100 
+	Parameter Utype bound to: 6'b000010 
+	Parameter Jtype bound to: 6'b000001 
+INFO: [Synth 8-6155] done synthesizing module 'ImmU' (9#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:149]
+INFO: [Synth 8-6155] done synthesizing module 'InstrDec' (10#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:171]
+INFO: [Synth 8-6157] synthesizing module 'ID2' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:203]
+	Parameter R_code bound to: 7'b0110011 
+	Parameter I_code1 bound to: 7'b0010011 
+	Parameter I_code2 bound to: 7'b0000011 
+	Parameter S_code bound to: 7'b0100011 
+	Parameter B_code bound to: 7'b1100011 
+	Parameter U_code1 bound to: 7'b0110111 
+	Parameter U_code2 bound to: 7'b0010111 
+	Parameter J_code1 bound to: 7'b1101111 
+	Parameter J_code2 bound to: 7'b1100111 
+INFO: [Synth 8-6155] done synthesizing module 'ID2' (11#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:203]
+INFO: [Synth 8-6157] synthesizing module 'CU' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:239]
+	Parameter Idle bound to: 3'b000 
+	Parameter S1 bound to: 3'b001 
+	Parameter S2 bound to: 3'b010 
+	Parameter S3 bound to: 3'b011 
+	Parameter S4 bound to: 3'b100 
+	Parameter S5 bound to: 3'b101 
+	Parameter S6 bound to: 3'b110 
+INFO: [Synth 8-6155] done synthesizing module 'CU' (12#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:239]
+INFO: [Synth 8-6157] synthesizing module 'RegHeap' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:344]
+INFO: [Synth 8-6155] done synthesizing module 'RegHeap' (13#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:344]
+INFO: [Synth 8-6157] synthesizing module 'Reg_Temp' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:442]
+INFO: [Synth 8-6155] done synthesizing module 'Reg_Temp' (14#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:442]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:363]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SLL bound to: 4'b0001 
+	Parameter SLT bound to: 4'b0010 
+	Parameter SLTU bound to: 4'b0011 
+	Parameter XOR bound to: 4'b0100 
+	Parameter SRL bound to: 4'b0101 
+	Parameter OR bound to: 4'b0110 
+	Parameter AND bound to: 4'b0111 
+	Parameter SUB bound to: 4'b1000 
+	Parameter SRA bound to: 4'b1101 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (15#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:363]
+INFO: [Synth 8-6157] synthesizing module 'Reg_Temp_with_Mark' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:457]
+INFO: [Synth 8-6155] done synthesizing module 'Reg_Temp_with_Mark' (16#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:457]
+INFO: [Synth 8-6157] synthesizing module 'tubeDisplay' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:498]
+INFO: [Synth 8-6155] done synthesizing module 'tubeDisplay' (17#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:498]
+INFO: [Synth 8-6155] done synthesizing module 'CPU_main' (18#1) [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:545]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1013.715 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/ip/My_ROM/My_ROM/My_ROM_in_context.xdc] for cell 'nolabel_line559/your_instance_name'
+Finished Parsing XDC File [e:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/ip/My_ROM/My_ROM/My_ROM_in_context.xdc] for cell 'nolabel_line559/your_instance_name'
+Parsing XDC File [E:/vivadoproject/RISC_V_ZHZ.srcs/constrs_1/new/RISC_V_ZHZ.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'get_nets{_rst_IBUF}' is not supported in the xdc constraint file. [E:/vivadoproject/RISC_V_ZHZ.srcs/constrs_1/new/RISC_V_ZHZ.xdc:5]
+CRITICAL WARNING: [Designutils 20-1307] Command 'get_nets{clk_IBUF}' is not supported in the xdc constraint file. [E:/vivadoproject/RISC_V_ZHZ.srcs/constrs_1/new/RISC_V_ZHZ.xdc:8]
+Finished Parsing XDC File [E:/vivadoproject/RISC_V_ZHZ.srcs/constrs_1/new/RISC_V_ZHZ.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivadoproject/RISC_V_ZHZ.srcs/constrs_1/new/RISC_V_ZHZ.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CPU_main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CPU_main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1013.715 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tlcsg324-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for nolabel_line559/your_instance_name. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'Cur_S_reg' in module 'ditheliminater'
+INFO: [Synth 8-802] inferred FSM for state register 'ST_reg' in module 'CU'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                              000 |                              000
+                      S1 |                              001 |                              001
+                      S2 |                              010 |                              010
+                      S5 |                              011 |                              101
+                      S3 |                              100 |                              011
+                      S4 |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Cur_S_reg' using encoding 'sequential' in module 'ditheliminater'
+WARNING: [Synth 8-327] inferring latch for variable 'imm32_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:157]
+WARNING: [Synth 8-327] inferring latch for variable 'I_fmt_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:188]
+WARNING: [Synth 8-327] inferring latch for variable 'IS_R_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:212]
+WARNING: [Synth 8-327] inferring latch for variable 'IS_IMM_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:213]
+WARNING: [Synth 8-327] inferring latch for variable 'IS_LUI_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:214]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                              000 |                              000
+                      S1 |                              001 |                              001
+                      S6 |                              010 |                              110
+                      S2 |                              011 |                              010
+                      S3 |                              100 |                              011
+                      S5 |                              101 |                              101
+                      S4 |                              110 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ST_reg' using encoding 'sequential' in module 'CU'
+WARNING: [Synth 8-327] inferring latch for variable 'res_F_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:387]
+WARNING: [Synth 8-327] inferring latch for variable 'F_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:386]
+WARNING: [Synth 8-327] inferring latch for variable 'CF_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:430]
+WARNING: [Synth 8-327] inferring latch for variable 'OF_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:431]
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [E:/vivadoproject/RISC_V_ZHZ.srcs/sources_1/new/RISC_V_ZHZ.v:582]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   33 Bit       Adders := 1     
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 37    
+	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   8 Input   32 Bit        Muxes := 2     
+	   2 Input   20 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	  10 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   6 Input    4 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	   7 Input    3 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 2     
+	  10 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 36    
+	   4 Input    1 Bit        Muxes := 3     
+	  11 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1013.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1023.645 ; gain = 9.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |My_ROM        |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |My_ROM |     1|
+|2     |BUFG   |     5|
+|3     |CARRY4 |    43|
+|4     |LUT1   |     4|
+|5     |LUT2   |    35|
+|6     |LUT3   |   109|
+|7     |LUT4   |    85|
+|8     |LUT5   |   266|
+|9     |LUT6   |  1062|
+|10    |MUXF7  |   256|
+|11    |FDCE   |   222|
+|12    |FDPE   |     9|
+|13    |FDRE   |   993|
+|14    |LD     |   107|
+|15    |IBUF   |     6|
+|16    |OBUF   |    20|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1028.949 ; gain = 15.234
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1028.949 ; gain = 15.234
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1028.949 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 406 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1028.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 107 instances were transformed.
+  LD => LDCE: 107 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 11 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1028.949 ; gain = 15.234
+INFO: [Common 17-1381] The checkpoint 'E:/vivadoproject/RISC_V_ZHZ.runs/synth_1/CPU_main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CPU_main_utilization_synth.rpt -pb CPU_main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 17 23:18:46 2021...

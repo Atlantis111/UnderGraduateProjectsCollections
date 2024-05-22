@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HistogramEqualization", "HistogramEqualization\HistogramEqualization.pyproj", "{E0737F6E-39F3-4830-8D20-758A50ED3E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0737F6E-39F3-4830-8D20-758A50ED3E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0737F6E-39F3-4830-8D20-758A50ED3E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0858A934-16D0-440E-8954-EF284B9D053B}
+	EndGlobalSection
+EndGlobal

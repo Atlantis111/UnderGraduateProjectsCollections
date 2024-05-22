@@ -1,0 +1,219 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "DHCP_project",
+    "project_id": "807f8c40-62d9-4d55-8d8e-6d36cac6e385",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "d178840e-0f4b-4ab3-9c4a-0d7a3760dd03",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"27\" width=\"118\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DHCP Server</text></svg>",
+                "x": -274,
+                "y": -4,
+                "z": 2
+            },
+            {
+                "drawing_id": "a750b326-807a-46cd-b995-29fe03f5eee8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"27\" width=\"118\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DHCP Client</text></svg>",
+                "x": -601,
+                "y": -8,
+                "z": 2
+            },
+            {
+                "drawing_id": "ea56e361-6de4-40d9-bc42-d6960daa6c27",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"27\" width=\"268\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">\u7528wireshark\u6293\u53d6UDP/DHCP\u5206\u7ec4</text></svg>",
+                "x": -484,
+                "y": -244,
+                "z": 2
+            },
+            {
+                "drawing_id": "230fbb5a-f419-43aa-9cbc-3d2b7c38633f",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"27\" width=\"238\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">\u7aef\u53e3\u53f7\uff1a\u5ba2\u6237\u673a68 \u670d\u52a1\u566867</text></svg>",
+                "x": -486,
+                "y": -191,
+                "z": 2
+            },
+            {
+                "drawing_id": "6c0917ca-0457-4cfd-bbfe-d340fb936426",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"122\" width=\"570\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DHCP\u5730\u5740\u5206\u914d\u4e0e\u8bf7\u6c42\u8fc7\u7a0b\uff1a\n\u53d1\u73b0\u3001\u63d0\u4f9b\u3001\u8bf7\u6c42\u3001\u786e\u8ba4\n\n\u91c7\u7528\u5e7f\u64ad\u4ea4\u4e92\u65b9\u5f0f\n\n\u53d1\u73b0DCHP Discover\u65f6\uff0c\u6e90IP\u4e3a0.0.0.0 \u76ee\u7684IP\u4e3a255.255.255.255</text></svg>",
+                "x": -645,
+                "y": 74,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "1db14467-e07b-4138-841a-7a121bc3eb48",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 72,
+                            "y": 30
+                        },
+                        "node_id": "1a20de37-70c5-47ed-a3bb-07809cc3d745",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -15,
+                            "y": 33
+                        },
+                        "node_id": "47d16cf8-93ac-44da-8c89-416d453e381d",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 19,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R1",
+                "node_id": "1a20de37-70c5-47ed-a3bb-07809cc3d745",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x6050b114",
+                    "idlesleep": 30,
+                    "image": "c3640-a3js-mz.124-25d.image",
+                    "image_md5sum": "493c4ef6578801d74d715e7d11596964",
+                    "iomem": 5,
+                    "mac_addr": "cc01.4e84.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": "NM-16ESW",
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/classic/vpcs_guest.svg",
+                "template_id": "bacdd199-3a46-41a2-8c54-8ea807cc334d",
+                "width": 65,
+                "x": -568,
+                "y": -77,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 70,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 19,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R2",
+                "node_id": "47d16cf8-93ac-44da-8c89-416d453e381d",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x6050b114",
+                    "idlesleep": 30,
+                    "image": "c3640-a3js-mz.124-25d.image",
+                    "image_md5sum": "493c4ef6578801d74d715e7d11596964",
+                    "iomem": 5,
+                    "mac_addr": "cc02.04ac.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": null,
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/classic/server.svg",
+                "template_id": "bacdd199-3a46-41a2-8c54-8ea807cc334d",
+                "width": 49,
+                "x": -249,
+                "y": -83,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.26",
+    "zoom": 100
+}

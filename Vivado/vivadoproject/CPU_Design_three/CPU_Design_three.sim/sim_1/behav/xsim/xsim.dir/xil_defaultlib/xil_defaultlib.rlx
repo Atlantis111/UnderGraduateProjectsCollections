@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/vivadoproject/CPU_Design_three/CPU_Design_three.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sim_1/new/CPU_Design_three_sim.v,1624044792,verilog,,,,CPU_Design_sim,,,,,,,,
+E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sources_1/ip/DM/sim/DM.v,1624073357,verilog,,E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sources_1/ip/ROM_B/sim/ROM_B.v,,DM,,,,,,,,
+E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sources_1/ip/ROM_B/sim/ROM_B.v,1624041125,verilog,,E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sources_1/new/CPU_Design_three.v,,ROM_B,,,,,,,,
+E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sources_1/new/CPU_Design_three.v,1624635557,verilog,,E:/vivadoproject/CPU_Design_three/CPU_Design_three.srcs/sim_1/new/CPU_Design_three_sim.v,,ALU;CPU;CPU_Design_three;CU;Code_Translation;Display;Div;ID2;IR_Register;MDR;PC;PC0;PC_ADD;PC_addr_ADD;Register_A_B;Register_F;Regs;immU,,,,,,,,

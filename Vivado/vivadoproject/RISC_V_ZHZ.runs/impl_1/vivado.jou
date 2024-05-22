@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jun 17 23:18:54 2021
+# Process ID: 4548
+# Current directory: E:/vivadoproject/RISC_V_ZHZ.runs/impl_1
+# Command line: vivado.exe -log CPU_main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CPU_main.tcl -notrace
+# Log file: E:/vivadoproject/RISC_V_ZHZ.runs/impl_1/CPU_main.vdi
+# Journal file: E:/vivadoproject/RISC_V_ZHZ.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source CPU_main.tcl -notrace

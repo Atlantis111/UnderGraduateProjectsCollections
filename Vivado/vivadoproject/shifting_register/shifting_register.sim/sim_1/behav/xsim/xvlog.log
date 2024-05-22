@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/shifting_register/shifting_register.srcs/sources_1/new/shifting_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifting_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/shifting_register/shifting_register.srcs/sim_1/new/shifting_register_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifting_register_test

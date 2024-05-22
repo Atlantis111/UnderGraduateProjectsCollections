@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec  9 19:27:19 2020
+# Process ID: 14784
+# Current directory: E:/vivadoproject/reversible_counter/reversible_counter.runs/impl_1
+# Command line: vivado.exe -log reversible_counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source reversible_counter.tcl -notrace
+# Log file: E:/vivadoproject/reversible_counter/reversible_counter.runs/impl_1/reversible_counter.vdi
+# Journal file: E:/vivadoproject/reversible_counter/reversible_counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source reversible_counter.tcl -notrace

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 16 17:40:06 2020
+# Process ID: 12980
+# Current directory: D:/vivadoprog/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7000 D:\vivadoprog\project_1\project_1.xpr
+# Log file: D:/vivadoprog/project_1/vivado.log
+# Journal file: D:/vivadoprog/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivadoprog/project_1/project_1.xpr
+update_compile_order -fileset sources_1

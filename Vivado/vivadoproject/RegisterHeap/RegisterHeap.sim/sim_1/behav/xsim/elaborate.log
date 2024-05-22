@@ -1,0 +1,16 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 356eec2d8ef442beb1ab4da3c579e92c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot REG_simu_behav xil_defaultlib.REG_simu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/vivadoproject/RegisterHeap/RegisterHeap.srcs/sources_1/new/RegisterHeap.v" Line 30. Module RegHeap doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/vivadoproject/RegisterHeap/RegisterHeap.srcs/sources_1/new/RegisterHeap.v" Line 30. Module RegHeap doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RegHeap
+Compiling module xil_defaultlib.REG_simu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot REG_simu_behav

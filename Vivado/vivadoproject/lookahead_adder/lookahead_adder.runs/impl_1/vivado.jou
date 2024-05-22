@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov 11 18:38:29 2020
+# Process ID: 16924
+# Current directory: E:/vivadoproject/lookahead_adder/lookahead_adder.runs/impl_1
+# Command line: vivado.exe -log lookaheadadd_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lookaheadadd_4.tcl -notrace
+# Log file: E:/vivadoproject/lookahead_adder/lookahead_adder.runs/impl_1/lookaheadadd_4.vdi
+# Journal file: E:/vivadoproject/lookahead_adder/lookahead_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lookaheadadd_4.tcl -notrace

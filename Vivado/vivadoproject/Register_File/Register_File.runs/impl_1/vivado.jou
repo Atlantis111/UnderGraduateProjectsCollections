@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 16 17:29:52 2021
+# Process ID: 19436
+# Current directory: E:/vivadoproject/Register_File/Register_File.runs/impl_1
+# Command line: vivado.exe -log Register_File_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Register_File_test.tcl -notrace
+# Log file: E:/vivadoproject/Register_File/Register_File.runs/impl_1/Register_File_test.vdi
+# Journal file: E:/vivadoproject/Register_File/Register_File.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Register_File_test.tcl -notrace

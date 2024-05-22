@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/RegisterHeap/RegisterHeap.srcs/sources_1/new/RegisterHeap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Div
+INFO: [VRFC 10-311] analyzing module RegHeap
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-311] analyzing module Reg_Temp
+INFO: [VRFC 10-311] analyzing module Reg_Temp_with_Mark
+INFO: [VRFC 10-311] analyzing module ALU_main
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/RegisterHeap/RegisterHeap.srcs/sim_1/new/REG_simu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_simu

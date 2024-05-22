@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TryEigenFaces", "TryEigenFaces\TryEigenFaces.pyproj", "{FC70A7E5-1C9C-4930-BA49-D9B71E2FE937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC70A7E5-1C9C-4930-BA49-D9B71E2FE937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC70A7E5-1C9C-4930-BA49-D9B71E2FE937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54EA393B-6FA9-4B70-907F-761075909578}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,125 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Jun 25 23:41:07 2021
+| Host         : DESKTOP-J89QRPS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7a100tl
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    47 |
+|    Minimum number of control sets                        |    47 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    48 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    47 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     2 |
+| >= 16              |    39 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             148 |           74 |
+| No           | No                    | Yes                    |             141 |           53 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             992 |          371 |
+| Yes          | No                    | Yes                    |             151 |           47 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+---------------------------------+------------------+------------------+----------------+--------------+
+|       Clock Signal      |          Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------+---------------------------------+------------------+------------------+----------------+--------------+
+|  clk_100M_IBUF_BUFG     |                                 | uut12/rst_n      |                1 |              1 |         1.00 |
+|  uut9/ALU_OP_o_reg[1]_5 |                                 |                  |                2 |              2 |         1.00 |
+|  nolabel_line909/CLK    |                                 | uut12/rst_n      |                1 |              3 |         3.00 |
+| ~clk_IBUF_BUFG          |                                 | uut12/rst_n      |                2 |              4 |         2.00 |
+|  uut6/inst_reg[4]_2[0]  |                                 |                  |                2 |              6 |         3.00 |
+|  uut6/inst_reg[2]_0[0]  |                                 |                  |                4 |             11 |         2.75 |
+| ~clk_IBUF_BUFG          | uut9/PC_Write_i_1_n_4           | uut12/rst_n      |                7 |             14 |         2.00 |
+|  nolabel_line909/CLK    | rst_n_IBUF                      | uut12/rst_n      |                6 |             15 |         2.50 |
+|  clk_100M_IBUF_BUFG     | nolabel_line909/cnt[25]_i_1_n_4 | uut12/rst_n      |                5 |             26 |         5.20 |
+|  n_1_90_BUFG            |                                 |                  |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_4[0]          |                  |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG          | uut6/E[0]                       |                  |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_0[0]          |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_1[0]          |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_2[0]          |                  |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_5[0]          |                  |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[11]_0[0]          |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[10]_3[0]          |                  |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[11]_1[0]          |                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[9]_0[0]           |                  |                7 |             32 |         4.57 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_0[0]           |                  |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_13[0]          |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[9]_1[0]           |                  |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_6[0]           |                  |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[7]_4[0]           |                  |               21 |             32 |         1.52 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[7]_1[0]           |                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_7[0]           |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_11[0]          |                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[7]_2[0]           |                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_5[0]           |                  |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_8[0]           |                  |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_1[0]           |                  |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_3[0]           |                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_10[0]          |                  |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_4[0]           |                  |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[7]_3[0]           |                  |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[9]_2[0]           |                  |                6 |             32 |         5.33 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_9[0]           |                  |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[7]_0[0]           |                  |                7 |             32 |         4.57 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_12[0]          |                  |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG          | uut6/inst_reg[8]_2[0]           |                  |               21 |             32 |         1.52 |
+|  n_3_1652_BUFG          |                                 |                  |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG          | uut9/PC_Write                   | uut12/rst_n      |                9 |             32 |         3.56 |
+|  n_2_1661_BUFG          |                                 |                  |               16 |             32 |         2.00 |
+|  n_0_1919_BUFG          |                                 |                  |               26 |             33 |         1.27 |
+|  clk_IBUF_BUFG          | uut9/IR_Write                   | uut12/rst_n      |               20 |             64 |         3.20 |
+|  clk_IBUF_BUFG          |                                 | uut12/rst_n      |               49 |            133 |         2.71 |
++-------------------------+---------------------------------+------------------+------------------+----------------+--------------+
+
+

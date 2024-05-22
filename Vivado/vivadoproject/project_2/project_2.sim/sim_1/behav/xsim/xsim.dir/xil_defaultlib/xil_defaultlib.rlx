@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/vivadoproject/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/vivadoproject/project_2/project_2.srcs/sim_1/new/project_1_Test.v,1603883476,verilog,,,,sim1,,,,,,,,
+E:/vivadoproject/project_2/project_2.srcs/sources_1/new/project_1.v,1603882764,verilog,,E:/vivadoproject/project_2/project_2.srcs/sources_1/new/project_2.v,,project_1,,,,,,,,
+E:/vivadoproject/project_2/project_2.srcs/sources_1/new/project_2.v,1603882737,verilog,,E:/vivadoproject/project_2/project_2.srcs/sources_1/new/project_3.v,,project_2,,,,,,,,
+E:/vivadoproject/project_2/project_2.srcs/sources_1/new/project_3.v,1603882723,verilog,,E:/vivadoproject/project_2/project_2.srcs/sim_1/new/project_1_Test.v,,project_3,,,,,,,,

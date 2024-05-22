@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Jun 19 02:32:09 2021
+# Process ID: 2056
+# Current directory: E:/vivadoproject/CPU_Design_three/CPU_Design_three.runs/ROM_B_synth_1
+# Command line: vivado.exe -log ROM_B.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ROM_B.tcl
+# Log file: E:/vivadoproject/CPU_Design_three/CPU_Design_three.runs/ROM_B_synth_1/ROM_B.vds
+# Journal file: E:/vivadoproject/CPU_Design_three/CPU_Design_three.runs/ROM_B_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ROM_B.tcl -notrace

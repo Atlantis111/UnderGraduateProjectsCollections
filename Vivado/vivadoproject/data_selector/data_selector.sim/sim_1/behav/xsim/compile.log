@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/data_selector/data_selector.srcs/sources_1/new/data_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/data_selector/data_selector.srcs/sim_1/new/data_selector_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_selector_test

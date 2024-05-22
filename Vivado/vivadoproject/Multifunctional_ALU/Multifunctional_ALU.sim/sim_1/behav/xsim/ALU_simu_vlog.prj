@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Multifunctional_ALU.srcs/sources_1/new/Multifunctional_ALU.v" \
+"../../../../Multifunctional_ALU.srcs/sim_1/new/Multifunctional_ALU_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

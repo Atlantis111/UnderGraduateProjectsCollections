@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/vivadoproject/shifting_register_test/shifting_register_test.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/vivadoproject/shifting_register_test/shifting_register_test.srcs/sim_1/new/shifting_register_test_test.v,1609326535,verilog,,,,shifting_register_test_test,,,,,,,,
+E:/vivadoproject/shifting_register_test/shifting_register_test.srcs/sources_1/new/shifting_register_test.v,1609330472,verilog,,E:/vivadoproject/shifting_register_test/shifting_register_test.srcs/sim_1/new/shifting_register_test_test.v,,cyclic_shifting_register;shifting_register_test,,,,,,,,

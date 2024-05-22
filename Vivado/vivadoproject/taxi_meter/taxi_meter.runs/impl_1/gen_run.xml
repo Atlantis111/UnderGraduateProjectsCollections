@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tlcsg324-2L" LaunchTime="1620484091">
+  <File Type="BITSTR-BMM" Name="Taxi_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Taxi_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Taxi_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Taxi_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Taxi.tcl"/>
+  <File Type="OPT-TIMING" Name="Taxi_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Taxi_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Taxi_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Taxi_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Taxi_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Taxi.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Taxi_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Taxi_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Taxi_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Taxi_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Taxi_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Taxi_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Taxi_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Taxi_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Taxi_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Taxi_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Taxi_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Taxi_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Taxi_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Taxi.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Taxi_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Taxi_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Taxi_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Taxi.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Taxi_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Taxi_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Taxi_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Taxi_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Taxi_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Taxi_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Taxi_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Taxi.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Taxi_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Taxi_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Taxi_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Taxi_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Taxi_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Taxi_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Taxi_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Taxi_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Taxi_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Taxi_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Taxi_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Taxi_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Taxi_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Taxi_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Taxi_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Taxi_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Taxi_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Taxi_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Taxi_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Taxi_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Taxi_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Taxi.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Taxi_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Taxi.rbt"/>
+  <File Type="BITSTR-NKY" Name="Taxi.nky"/>
+  <File Type="PDI-FILE" Name="Taxi.pdi"/>
+  <File Type="RCFI_FILE" Name="Taxi.rcfi"/>
+  <File Type="CFI_FILE" Name="Taxi.cfi"/>
+  <File Type="RNPI_FILE" Name="Taxi.rnpi"/>
+  <File Type="NPI_FILE" Name="Taxi.npi"/>
+  <File Type="RBD_FILE" Name="Taxi.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Taxi.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Taxi.sysdef"/>
+  <File Type="BG-BGN" Name="Taxi.bgn"/>
+  <File Type="BG-DRC" Name="Taxi.drc"/>
+  <File Type="RDI-RDI" Name="Taxi.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/taxi_meter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Taxi"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/taxi_meter.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

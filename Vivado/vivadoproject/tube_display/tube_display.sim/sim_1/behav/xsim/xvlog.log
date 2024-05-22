@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/tube_display/tube_display.srcs/sources_1/new/cube_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tube_display
+INFO: [VRFC 10-311] analyzing module DivFreP
+INFO: [VRFC 10-311] analyzing module DivFreD
+INFO: [VRFC 10-311] analyzing module Ccount
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivadoproject/tube_display/tube_display.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

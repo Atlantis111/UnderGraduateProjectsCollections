@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RegisterHeap.srcs/sources_1/new/RegisterHeap.v" \
+"../../../../RegisterHeap.srcs/sim_1/new/REG_simu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

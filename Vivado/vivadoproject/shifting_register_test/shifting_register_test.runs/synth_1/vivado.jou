@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec 30 20:26:54 2020
+# Process ID: 10376
+# Current directory: E:/vivadoproject/shifting_register_test/shifting_register_test.runs/synth_1
+# Command line: vivado.exe -log cyclic_shifting_register.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cyclic_shifting_register.tcl
+# Log file: E:/vivadoproject/shifting_register_test/shifting_register_test.runs/synth_1/cyclic_shifting_register.vds
+# Journal file: E:/vivadoproject/shifting_register_test/shifting_register_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cyclic_shifting_register.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jan  8 22:40:46 2021
+# Process ID: 17172
+# Current directory: E:/vivadoproject/taxi_fee/taxi_fee.runs/impl_1
+# Command line: vivado.exe -log taxi.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source taxi.tcl -notrace
+# Log file: E:/vivadoproject/taxi_fee/taxi_fee.runs/impl_1/taxi.vdi
+# Journal file: E:/vivadoproject/taxi_fee/taxi_fee.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source taxi.tcl -notrace
